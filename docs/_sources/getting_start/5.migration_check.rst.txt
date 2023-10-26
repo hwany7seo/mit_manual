@@ -7,7 +7,7 @@
 
 이관할 object들의 정보를 최종적으로 확인한다.
 
-.. image:: .\\image\\migration_check.png
+.. image:: image/migration_check.png
 
 =====================
 원본 데이터베이스
@@ -51,7 +51,7 @@ MiT에서 스크립트 기능이 작동하지 않기 때문에 해당 기능도 
 
 이관 진행시 사용될 thread 갯수, commit 주기 등을 설정할 수 있다.
 
-.. image:: .\\image\\advance_performance_setting.png
+.. image:: image/advance_performance_setting.png
 
 -------------------
 스크립트
