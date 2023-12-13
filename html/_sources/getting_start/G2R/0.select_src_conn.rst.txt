@@ -1,0 +1,4 @@
+:meta-keywords: guide tool
+:meta-description: Introducing the feature G2R's first page
+
+
