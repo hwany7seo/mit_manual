@@ -1,24 +1,52 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en" >
-<head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>목표DB 연결 선택 페이지 &mdash; MiT 1.0 documentation</title>
-      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-        <script src="../../_static/jquery.js"></script>
-        <script src="../../_static/underscore.js"></script>
-        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/sphinx_highlight.js"></script>
-    <script src="../../_static/js/theme.js"></script>
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../../',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="객체 맵핑 페이지" href="4.object_mapping.html" />
@@ -50,13 +78,26 @@
 
 </head>
 
-<body class="wy-body-for-nav"> 
+<body class="wy-body-for-nav">
+
+   
   <div class="wy-grid-for-nav">
+    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
+          
+
+          
             <a href="../../index.html" class="icon icon-home"> MiT
+          
+
+          
           </a>
+
+          
+
+          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -64,7 +105,18 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../toc.html">매뉴얼 소개</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../toc.html#id2">매뉴얼 구성</a></li>
@@ -140,6 +192,8 @@
 <li class="toctree-l5"><a class="reference internal" href="4.object_mapping.html#id3">컬럼 리스트</a></li>
 <li class="toctree-l5"><a class="reference internal" href="4.object_mapping.html#id4">그래프</a></li>
 <li class="toctree-l5"><a class="reference internal" href="4.object_mapping.html#rdb-gdb">RDB, GDB 컬럼</a></li>
+<li class="toctree-l5"><a class="reference internal" href="4.object_mapping.html#gdb">GDB 컬럼 데이터 타입 변경 기능</a></li>
+<li class="toctree-l5"><a class="reference internal" href="4.object_mapping.html#edge">사용자 지정 edge 추가 기능</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="5.migration_check.html">이관 확인 페이지</a><ul>
@@ -165,7 +219,37 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../1.GDB_to_RDB.html">GDB to RDB 이관하기</a><ul class="simple">
+<li class="toctree-l3"><a class="reference internal" href="../1.GDB_to_RDB.html">GDB to RDB 이관하기</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../G2R/0.select_conn.html">GDB to RDB 이관</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/0.select_conn.html#sourcedb">sourceDB 선택</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/0.select_conn.html#targetdb">targetDB 선택</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../G2R/1.enter_query.html">GQL 입력 및 값 추출</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/1.enter_query.html#add-sql">Add SQL</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/1.enter_query.html#edit-sql">Edit SQL</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/1.enter_query.html#delete-sql">Delete SQL</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/1.enter_query.html#import-sql">import SQL</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../G2R/2.g2r_confirmation_page.html">GDB to RDB 이관 진행</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/2.g2r_confirmation_page.html#id1">원본 데이터베이스</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/2.g2r_confirmation_page.html#id2">대상 데이터베이스</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/2.g2r_confirmation_page.html#sql-tables">SQL Tables</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/2.g2r_confirmation_page.html#id3">고급 성능 설정</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../G2R/3.g2r_progress.html">이관 진행</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/3.g2r_progress.html#table">Table</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/3.g2r_progress.html#console">console 화면</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../G2R/4.g2r_report.html">결과</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/4.g2r_report.html#table">Table</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/4.g2r_report.html#record">record</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../G2R/4.g2r_report.html#detail">Detail</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../2.RDB_to_dump.html">RDB to dump file 이관하기</a><ul>
@@ -216,6 +300,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../R2C/1.csv_object_mapping.html">객체 맵핑 페이지</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="../R2C/1.csv_object_mapping.html#table-list">Table List</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../R2C/1.csv_object_mapping.html#column-list">Column List</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../R2C/1.csv_object_mapping.html#graph">Graph</a></li>
 <li class="toctree-l5"><a class="reference internal" href="../R2C/1.csv_object_mapping.html#rdb-column-gdb-column">RDB Column, GDB Column</a></li>
 </ul>
 </li>
@@ -285,122 +370,183 @@
 </li>
 </ul>
 
+            
+          
         </div>
+        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">MiT</a>
+        
       </nav>
 
+
       <div class="wy-nav-content">
+        
         <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-      <li><a href="../../index.html" class="icon icon-home"></a></li>
-          <li class="breadcrumb-item"><a href="../../start.html">시작하기</a></li>
-          <li class="breadcrumb-item"><a href="../0.RDB_to_GDB.html">RDB to GDB 이관하기</a></li>
-      <li class="breadcrumb-item active">목표DB 연결 선택 페이지</li>
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../start.html">시작하기</a> &raquo;</li>
+        
+          <li><a href="../0.RDB_to_GDB.html">RDB to GDB 이관하기</a> &raquo;</li>
+        
+      <li>목표DB 연결 선택 페이지</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
+        
+          
             <a href="../../_sources/getting_start/R2G/3.select_tar_conn.rst.txt" rel="nofollow"> View page source</a>
+          
+        
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-             
-  <section id="db">
-<h1>목표DB 연결 선택 페이지<a class="headerlink" href="#db" title="Permalink to this heading">¶</a></h1>
+            
+  <div class="section" id="db">
+<h1>목표DB 연결 선택 페이지<a class="headerlink" href="#db" title="Permalink to this headline">¶</a></h1>
 <p>대상DB의 connection을 관리한다.</p>
-<img alt="../../_images/select_tar_conn_page.png" src="../../_images/select_tar_conn_page.png" />
+<img alt="../../_images/select_tar_conn_page1.png" src="../../_images/select_tar_conn_page1.png" />
 <p>미리 생성된 연결을 선택하거나 유효한 연결을 새로 생성하여 선택한 뒤 객체 맵핑 페이지로 진행할 수 있다.</p>
 <p>원본 DB 연결을 선택하는 페이지와 큰 차이점은 존재하지 않는다.</p>
-<section id="id1">
-<h2>연결 생성<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<div class="section" id="id1">
+<h2>연결 생성<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <p>connection을 생성한다</p>
-<img alt="../../_images/select_tar_conn_page_create_conn.png" src="../../_images/select_tar_conn_page_create_conn.png" />
-<section id="id2">
-<h3>데이터베이스 종류<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h3>
+<img alt="image//select_tar_conn_page_create_conn.png" src="image//select_tar_conn_page_create_conn.png" />
+<div class="section" id="id2">
+<h3>데이터베이스 종류<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p>현재 선택된 데이터베이스의 타입을 나타낸다. 현재 대상 DB는 NEO4J를 사용한다.</p>
-</section>
-<section id="jdbc">
-<h3>JDBC 드라이버 선택<a class="headerlink" href="#jdbc" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="jdbc">
+<h3>JDBC 드라이버 선택<a class="headerlink" href="#jdbc" title="Permalink to this headline">¶</a></h3>
 <p>찾아보기를 눌러 JDBC 드라이버를 추가할 수 있다. 만약 한번 진행했을 경우 dropbox 메뉴를 통해 기존에 사용했던 JDBC를 사용할 수 있다.</p>
-</section>
-<section id="id3">
-<h3>연결 이름<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id3">
+<h3>연결 이름<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>대상 DB 선택 페이지에서 보여질 이름을 입력할 수 있다.</p>
-</section>
-<section id="id4">
-<h3>호스트 주소<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id4">
+<h3>호스트 주소<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>대상 DB가 있는 IP주소를 입력한다.</p>
-</section>
-<section id="id5">
-<h3>연결 포트<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id5">
+<h3>연결 포트<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <p>DB의 포트 번호를 입력한다. 기본값은 NEO4J의 기본 포트인 7687으로 되어있다.</p>
-</section>
-<section id="id6">
-<h3>데이터베이스 이름<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id6">
+<h3>데이터베이스 이름<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <p>대상 DB내부의 schema또는 DB이름을 입력한다. (ex. CUBRID의 샘플DB인 demodb, NEO4J의 샘플DB인 neo4j)</p>
-</section>
-<section id="id7">
-<h3>문자 집합<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id7">
+<h3>문자 집합<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <p>대상DB가 neo4j일 경우 아직 문자셋은 지원하지 않는다</p>
-</section>
-<section id="id8">
-<h3>사용자 이름<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id8">
+<h3>사용자 이름<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <p>DB에 접속하기 위한 계정 이름을 입력한다.</p>
-</section>
-<section id="id9">
-<h3>비밀번호<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id9">
+<h3>비밀번호<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>계정의 비밀번호를 입력한다.</p>
-</section>
-<section id="id10">
-<h3>JDBC 고급 설정<a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h3>
+</div>
+<div class="section" id="id10">
+<h3>JDBC 고급 설정<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <p>JDBC URL을 커스텀 할 수 있다. 만약 DB연결시 parameter가 필요할 경우 해당 옵션에서 사용할 수 있다.</p>
-<img alt="../../_images/select_tar_custom_url.png" src="../../_images/select_tar_custom_url.png" />
-</section>
-</section>
-<section id="id11">
-<h2>테스트<a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h2>
+<img alt="../../_images/select_tar_custom_url1.png" src="../../_images/select_tar_custom_url1.png" />
+</div>
+</div>
+<div class="section" id="id11">
+<h2>테스트<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
 <p>입력된 정보를 통해 연결을 테스트한다.</p>
-<img alt="../../_images/select_conn_test.png" src="../../_images/select_conn_test.png" />
-</section>
-</section>
+<img alt="../../_images/select_conn_test2.png" src="../../_images/select_conn_test2.png" />
+</div>
+</div>
 
 
            </div>
+           
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../0.RDB_to_GDB.html" class="btn btn-neutral float-left" title="RDB to GDB 이관하기" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="4.object_mapping.html" class="btn btn-neutral float-right" title="객체 맵핑 페이지" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../0.RDB_to_GDB.html" class="btn btn-neutral float-left" title="RDB to GDB 이관하기" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2022, CUBRID Corporation.
-      <span class="lastupdated">Last updated on Dec 14, 2023.
-      </span></p>
-  </div>
+    <p>
+        &#169; Copyright 2022, CUBRID Corporation.
+      <span class="lastupdated">
+        Last updated on Dec 14, 2023.
+      </span>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
         </div>
       </div>
+
     </section>
+
   </div>
-  <script>
+  
+
+  <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>
